@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/styles.css">
     <link href="http://fonts.cdnfonts.com/css/bpscript" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
 <body>
 <div class="container">
     <!-- Stack the columns on mobile by making one full-width and the other half-width -->
@@ -43,39 +44,70 @@
         </div>
       </nav>
     </div>
-</div>
-      
+   
+    <p> </p>
   
     <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
-    <div class="row">
-        <div class="col-6 col-md-4" id="contact">
-            <p>art</p>
-          </div>
-        
-        <div class="col-11 col-md-8" id="column">
-            <h1>Are you interested? <img src="../images/brush2.png"></h1>
-            <p3>Contact me by email or in Instagram</p3>
-        </div>
-        
-        
-      </div>
-  
-    <!-- Columns are always 50% wide, on mobile and desktop -->
-    <div class="row">
-        <div class="col-md-12"><div class="card text-center">
-            <div class="card-header">
-                <img src="../images/logo-small.png">
+    
+      <div class="col-md-12"><nav class="navbar navbar-expand-lg navbar-light"> <!--"navbar navbar-expand-lg navbar-light bg-light"-->
+        <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-2"> 
+                <div class="d-flex flex-sm-column flex-row flex-nowrap white align-items-center sticky-top">
+                    <a href="#" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+                        <i class="bi bi-moon-stars"></i>
+                    </a>
+                    <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/artby.eveliina/" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Home">
+                              <i class="bi bi-instagram" id="buttons"></i></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./videos.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Dashboard">
+                              <i class="bi bi-camera-video" id="buttons"></i></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="./acrylic.html" class="nav-link py-3 px-2" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Orders">
+                              <i class="bi bi-easel" id="buttons"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <br></br>
+                </div>
             </div>
-            <div class="card-body">
-              <h5 class="card-title">Follow me on Instagram <i class="bi bi-instagram"></i></h5>
-              <p class="card-text">@artby.eveliina</p>
-              <a href="https://www.instagram.com/artby.eveliina/" class="btn btn-primary"id="button">Instagram</a>
+              
+              <div class="col-11 col-md-10" id="column">
+                
+                  <h1>Are you interested? <img src="../images/brush2.png"></h1>
+                  <p3>Contact me by email or in Instagram <i class="bi bi-instagram"></i></p3>
+              </div>
+              
+              
+            <div class="col-11 col-md-12" id="column">
+                <h2 id="column2">Be inspirated and start creating... <img src="../images/brush.png"></h2>
             </div>
-            <div class="card-footer text-muted">
-            </div>
-          </div></div>
+           </div>
+       </div>
     </div>
   </div>
+    <!-- Columns are always 50% wide, on mobile and desktop -->
+    <div class="row">
+      <div class="col-md-12"><div class="card text-center">
+          <div class="card-header">
+              <img src="../images/logo-small.png">
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Follow me on Instagram <i class="bi bi-instagram"></i></h5>
+            <p class="card-text">@artby.eveliina</p>
+            <a href="https://www.instagram.com/artby.eveliina/" class="btn btn-primary" id="button">Instagram</a>
+          </div>
+          <div class="card-footer text-muted">
+          </div>
+        </div></div>
+  </div>
+</div>
     <script src="./script/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
