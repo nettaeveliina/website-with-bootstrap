@@ -22,7 +22,7 @@ h1 {
 }
 
 #back {
-  background-image: url(../images/backround1.jpg);
+  background-image: url(/images/backround1.jpg);
   height: 500px;
 }
 
