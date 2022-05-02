@@ -1,12 +1,14 @@
+
+
 html {
   padding: 10px;
 }
 
 h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-[class*=col] {
+[class*="col"] {
   border: 1px solid black;
   background-color: rgb(255, 253, 253);
 }
@@ -15,18 +17,17 @@ h1 {
   font-size: 20px;
   padding: 30px;
 }
-
 .row {
   margin: 15px;
 }
 
 #back {
-  background-image: url(/images/backround1.jpg);
+  background-image: url(../images/backround1.jpg);
   height: 500px;
 }
 
-p {
-  font-family: "BPscript", sans-serif;
+#back p {
+  font-family: 'BPscript', sans-serif;
   font-size: 50px;
   color: rgb(0, 0, 0);
 }
@@ -34,18 +35,41 @@ p {
 #column h1, p3 {
   margin: 80px;
 }
-
 #column h2 {
   margin: 80px;
 }
 
-#column p3 {
+#column  p3 {
   margin: 80px;
   font-size: 20px;
 }
 
+#contact {
+  background-image: url(../images/backround2.jpg);
+  height: 500px;
+}
+
+#contact p {
+  font-family: 'BPscript', sans-serif;
+  font-size: 50px;
+  color: rgb(0, 0, 0);
+}
+
 #column img {
   height: 60px;
+}
+
+#button {
+  background-color: rgba(0, 60, 36, 0.603);
+  border: none;
+}
+
+#icon i{
+  height: 50px;
+}
+
+#buttons {
+  color: rgba(0, 60, 36, 0.603);
 }
 
 #column2 {
@@ -56,31 +80,7 @@ p {
 #column h2 {
   padding: 20px;
   font-size: 50px;
-  font-family: "BPscript", sans-serif;
-}
-
-#icon i {
-  height: 50px;
-}
-
-#contact {
-  background-image: url(/images/backround2.jpg);
-  height: 500px;
-}
-
-#contact p {
-  font-family: "BPscript", sans-serif;
-  font-size: 50px;
-  color: rgb(0, 0, 0);
-}
-
-#button {
-  background-color: rgba(0, 60, 36, 0.603);
-  border: none;
-}
-
-#buttons {
-  color: rgba(0, 60, 36, 0.603);
+  font-family: 'BPscript', sans-serif;
 }
 
 #button1 {
@@ -92,26 +92,23 @@ p {
   border: none;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width:500px) {
   /* For mobile phones: */
   * {
     width: 100%;
   }
-
   #column img {
-    height: 30px;
-    width: 30px;
+      height: 30px;
+      width: 30px;
   }
 
-  #column h2 {
-    margin: 40px;
-    text-align: left;
+      #column h2 {
+          margin: 40px;
+          text-align: left;
+      }
+      #column  p {
+          margin: 40px;
+          font-size: 20px;
+      }
+      
   }
-
-  #column p {
-    margin: 40px;
-    font-size: 20px;
-  }
-}
-
-/*# sourceMappingURL=built-styles.css.map */

@@ -32,6 +32,13 @@ h1 {
     color: rgb(0, 0, 0);
 }
 
+#java {
+    background-color: rgba(0, 60, 36, 0.603);
+    font-family: 'BPscript', sans-serif;
+    font-size: 50px;
+    color: rgb(0, 0, 0);
+}
+
 #column h1, p3 {
     margin: 80px;
 }
