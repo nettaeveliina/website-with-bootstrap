@@ -1,7 +1,4 @@
 
-
-
-
 let artC = document.getElementById("java");
 
 artC.style.color = "white";
