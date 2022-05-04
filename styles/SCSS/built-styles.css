@@ -21,11 +21,6 @@ h1 {
   margin: 15px;
 }
 
-#back {
-  background-image: url(/images/backround1.jpg);
-  height: 500px;
-}
-
 #back p {
   font-family: 'BPscript', sans-serif;
   font-size: 50px;
@@ -42,11 +37,6 @@ h1 {
 #column  p3 {
   margin: 80px;
   font-size: 20px;
-}
-
-#contact {
-  background-image: url(../images/backround2.jpg);
-  height: 500px;
 }
 
 #contact p {
