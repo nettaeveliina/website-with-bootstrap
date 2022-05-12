@@ -42,6 +42,8 @@ button2.style.margin = "20px";
 button2.style.fontWeight = "bold"
 button2.style.fontFamily = "'BPscript', sans-serif";
 
+
+
 //H1 Headline
 
 let text = document.getElementById("h1");
@@ -49,6 +51,6 @@ let text = document.getElementById("h1");
 text.style.color = "black";
 text.style.fontSize = "50px";
 text.style.fontFamily = "'BPscript', sans-serif";
-p3.innerHTML ="I manipulated the text... But I'm sorry i didn't know how to put a new kind of API." + "<br>" 
+p3.innerHTML ="I manipulated this text..." + "<br>" 
 text.classList.toggle("shading");
 
