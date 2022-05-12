@@ -1,15 +1,3 @@
-//yes No API
-fetch('https://yesno.wtf/api')
-.then(response => response.json())
-.then(
-    data => {
-    
-    document.getElementById('print-here').innerHTML += 
-    '<img src="' + data.image + '"/>'
-}
-);
-
-let api = document.getElementById("print-here");
 
 //Left side Column
 
@@ -28,7 +16,7 @@ button1.style.color = "white";
 button1.style.backgroundColor = "black";
 button1.style.fontSize = "20px";
 button1.style.fontFamily = "'BPscript', sans-serif";
-button1.style.marginLeft = "40px"
+button1.style.marginLeft = "180px"
 button1.style.padding = "10px";
 
 //Button2 (Instagram)
@@ -42,7 +30,17 @@ button2.style.margin = "20px";
 button2.style.fontWeight = "bold"
 button2.style.fontFamily = "'BPscript', sans-serif";
 
+//Button2 (Rest Api)
 
+let button3 = document.getElementById("button3");
+
+button3.style.color = "white";
+button3.style.backgroundColor = "black";
+button3.style.fontSize = "15px";
+button3.style.marginLeft = "120px"
+button3.style.padding = "10px";
+button3.innerHTML ="Rest Api Button"
+button3.style.border = "none";
 
 //H1 Headline
 
@@ -53,4 +51,5 @@ text.style.fontSize = "50px";
 text.style.fontFamily = "'BPscript', sans-serif";
 p3.innerHTML ="I manipulated this text..." + "<br>" 
 text.classList.toggle("shading");
+p3.style.marginLeft = "200px"
 
