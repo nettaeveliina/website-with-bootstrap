@@ -53,12 +53,17 @@ text.style.textAlign  = "center";
 text.style.fontFamily = "'BPscript', sans-serif";
 text.style.marginTop = "20px"
 
+//mouseOver ChangeText
+function changeText(obj, text) {
+    obj.innerText = text;
+  }
+
 text.classList.toggle("shading");
 
 //p
 let p = document.getElementById("p3")
 
-p3.innerHTML ="I manipulated this text..." + "<br>" 
+p3.innerHTML ="I manipulated this text with JavaScript." + "<br>" 
 p.style.textAlign  = "center";
 p.style.fontFamily = "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 p.style.fontSize = "40px"
