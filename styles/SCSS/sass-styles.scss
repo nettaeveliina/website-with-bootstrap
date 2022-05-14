@@ -1,18 +1,44 @@
 /* Less/Sass */
 $background-color: rgba(0, 60, 36, 0.603);
-$color: rgba(0, 60, 36, 0.603);
-$small: 10px;
+$color: rgb(255, 255, 255);
+$small: 15px;
 $med: 20px;
-$large: 30px;
-$serif: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-$sans: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+$large: 25px;
+$franklin: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+$gill: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+//mixin
 
 @mixin fonts{
   font: {
-    size: 20px;
-    weight: 500;
-    family: $sans;
+    family: $gill;
   };
+}
+
+p{
+  @include fonts;
+}
+
+//Operations
+
+a[href^="https"] {
+  color: black;
+  font-size: 18px;
+}
+
+a[href^="./pages/videos.html"] {
+  color: black;
+  font-size: 18px;
+}
+
+a[href^="./pages/advancedJavapage.html"] {
+  color: black;
+  font-size: 18px;
+}
+
+a[href^="/pages/videos.html"] {
+  color: black;
+  font-size: 18px;
 }
 
 /* style */
@@ -23,11 +49,11 @@ html {
 
   [class*=col] {
     border: 2px solid black;
-    background-color: rgb(255, 253, 253);
+    background-color: $color;
   }
   
   #navbarSupportedContent {
-    font-size: 20px;
+    font-size: $med;
     padding: 30px;
   }
   
@@ -45,13 +71,13 @@ html {
   }
 
   #indexText {
-    font-size: 20px;
+    font-size: $med;
     color: rgb(0, 0, 0);
     margin: 60px;
   }
   
   #contactText {
-    font-size: 20px;
+    font-size: $med;
     color: rgb(0, 0, 0);
     text-align: left;
     padding-left: 45px;
@@ -62,14 +88,14 @@ html {
   }
  
   #columnText {
-    font-size: 20px;
+    font-size: $med;
     color: rgb(0, 0, 0);
     text-align: center;
     padding:80px;
   }
 
   #apiText {
-    font-size: 20px;
+    font-size: $med;
     color: rgb(0, 0, 0);
     text-align: center;
     padding: 30px;
@@ -108,12 +134,12 @@ html {
   @media only screen and (max-width: 498px) {
     
       #column p {
-          font-size: 15px;
+          font-size: $small;
     
       }
 
       #column h1 {
-          font-size: 25px;
+          font-size: $large;
           display: inline;
       }
    
