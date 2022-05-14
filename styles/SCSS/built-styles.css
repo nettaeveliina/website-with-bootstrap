@@ -1,29 +1,12 @@
-/* style */
-.info {
-  color: rgb(28, 93, 93);
-}
-
-.alert {
-  color: rgb(28, 93, 93);
-}
-
+/* Less/Sass */
 /* style */
 html {
   padding: 10px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
-.card-title {
-  font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-h1 {
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
 [class*=col] {
-  border: 1px solid black;
+  border: 2px solid black;
   background-color: rgb(255, 253, 253);
 }
 
@@ -36,23 +19,48 @@ h1 {
   margin: 15px;
 }
 
-p {
+#icon i {
+  height: 50px;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#indexText {
   font-size: 20px;
   color: rgb(0, 0, 0);
   margin: 60px;
+}
+
+#contactText {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  padding-left: 45px;
 }
 
 #column h1 {
   margin: 60px;
 }
 
-#icon i {
-  height: 50px;
-}
-
-#contact p {
+#columnText {
   font-size: 20px;
   color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 80px;
+}
+
+#apiText {
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 30px;
+  margin-top: 20px;
+}
+
+h1:hover {
+  text-shadow: 4px 4px 4px #b8b8b8;
 }
 
 #button {
@@ -64,18 +72,20 @@ p {
 #button1 {
   background-color: rgba(0, 60, 36, 0.603);
   border: none;
+  margin-left: 60px;
 }
 
 #button2 {
   border: none;
 }
 
-h1:hover {
-  text-shadow: 4px 4px 4px #b8b8b8;
+#button3 {
+  background-color: rgba(0, 60, 36, 0.603);
+  border: none;
 }
 
+/* For mobile phones: */
 @media only screen and (max-width: 498px) {
-  /* For mobile phones: */
   #column p {
     font-size: 15px;
   }
