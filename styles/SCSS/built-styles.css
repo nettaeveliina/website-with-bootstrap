@@ -75,15 +75,14 @@ h1 {
 #columnText {
   font-size: 20px;
   color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 80px;
+  padding: 60px;
 }
 
 #apiText {
   font-size: 20px;
   color: rgb(0, 0, 0);
-  text-align: center;
-  padding: 30px;
+  margin-left: 40px;
+  padding: 20px;
   margin-top: 20px;
 }
 
@@ -93,7 +92,7 @@ h1:hover {
 
 #button {
   background-color: rgba(0, 60, 36, 0.603);
-  color: white;
+  color: rgb(255, 255, 255);
   border: none;
 }
 
@@ -116,7 +115,7 @@ h1:hover {
   background-color: rgba(0, 60, 36, 0.603);
   border: none;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  color: white;
+  color: rgb(255, 255, 255);
   padding: 10px;
   font-size: 20px;
 }

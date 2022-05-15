@@ -16,33 +16,18 @@ button1.style.color = "white";
 button1.style.backgroundColor = "black";
 button1.style.fontSize = "20px";
 button1.style.fontFamily = "'BPscript', sans-serif";
-button1.style.marginLeft= "510px"
 
-
-//Button2 (Instagram)
+//Button2 (Rest Api)
 
 let button2 = document.getElementById("button2");
 
 button2.style.color = "black";
-button2.style.backgroundColor = "gray";
+button2.style.backgroundColor = "white";
 button2.style.fontSize = "20px";
 button2.style.margin = "20px";
 button2.style.fontWeight = "bold"
 button2.style.fontFamily = "'BPscript', sans-serif";
 button2.style.display = "table-cell"
-
-
-//Button3 (Rest Api)
-
-let button3 = document.getElementById("button3");
-
-button3.style.color = "white";
-button3.style.backgroundColor = "black";
-button3.style.fontSize = "15px";
-button3.style.marginLeft = "140px"
-button3.style.padding = "10px";
-button3.innerHTML ="Rest Api Button"
-button3.style.border = "none";
 
 //H1 Headline
 
