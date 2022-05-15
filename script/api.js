@@ -1,3 +1,4 @@
+//Api javaScript
 const imageRandom = document.getElementById("imageRandom");
 
 function getRandomImage(){

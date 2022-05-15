@@ -115,7 +115,7 @@ html {
   //buttons
   #button {
     background-color: $background-color;
-    color: white;
+    color: $color;
     border: none;
     
   }
@@ -139,7 +139,7 @@ html {
     background-color: $background-color;
     border: none;
     font-family: $gill;
-    color: white;
+    color: $color;
     padding: 10px;
     font-size: 20px;
   }
