@@ -21,7 +21,6 @@ button2.style.fontWeight = "bold"
 button2.style.fontFamily = "'Helvetica";
 button2.style.marginLeft = "60px"
 
-
 //H1 Headline
 
 let text = document.getElementById("h1");
