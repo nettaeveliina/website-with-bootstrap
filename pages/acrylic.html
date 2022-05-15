@@ -11,7 +11,7 @@
     <script src="../script/script.js" defer></script>
 </head>
 <div class="container">
-<!--NavBar-->
+<!--NavBar Bootsrap-->
     <div class="row">
         <div class="col-md-12"><nav class="navbar navbar-expand-lg navbar-light"> <!--"navbar navbar-expand-lg navbar-light bg-light"-->
           <div class="container-fluid">
@@ -32,7 +32,7 @@
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                     <li><a class="dropdown-item" href="./acrylic.html">Acrylic</a></li>
-                    <li><a class="dropdown-item" href="./oilpastel.html">Oilpastel</a></li>
+                    <li><a class="dropdown-item" href="./oilpastel.html">Oil pastel</a></li>
                     <li><hr class="dropdown-divider"></li>
                     <li><a class="dropdown-item" href="./clay.html">Clay</a></li>
                   </ul>
@@ -45,16 +45,29 @@
       </div>
   </div>
         
-      
-<!--PhotoGallery-->
+<!--Bootsrap Collapse (info button)-->
+<div class="row">
+  <div class="col-md-12"><div class="card text-center">
+  <button id="buttonInfo" class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+    Click me if you wanna know more.
+  </button>
+</p>
+<div class="collapse" id="collapseExample">
+  <div class="card card-body">
+    Here are few examples of my acrylic paintings. One of the paintings has been painted by using pigments that I made myself from coal and ash.
+  </div>
+</div>
 <div class="container" id="gallery" style="width:fit-content"></div>
+<p>
+</div>
+<!--Bootsrap PhotoGallery-->
     <div class="row">
       <div class="col-md-12"><nav class="navbar navbar-expand-lg navbar-light">
-      <a href="../images/acrylic1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-        <img src="../images/acrylic1.jpg" class="img-fluid rounded">
-      </a>
-      <a href="../images/acrylic2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-        <img src="../images/acrylic2.jpg" class="img-fluid rounded">
+        <a href="../images/acrylic4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+          <img src="../images/acrylic4.jpg" class="img-fluid rounded">
+        </a>
+      <a href="../images/acrylic6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+        <img src="../images/acrylic6.jpg" class="img-fluid rounded">
       </a>
       <a href="../images/acrylic3.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
         <img src="../images/acrylic3.jpg" class="img-fluid rounded">
@@ -65,19 +78,20 @@
   <div class="container" id="gallery" style="width:fit-content"></div>
     <div class="row">
       <div class="col-md-12"><nav class="navbar navbar-expand-lg navbar-light">
-      <a href="../images/acrylic4.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-        <img src="../images/acrylic4.jpg" class="img-fluid rounded">
-      </a>
       <a href="../images/acrylic5.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
         <img src="../images/acrylic5.jpg" class="img-fluid rounded">
       </a>
-      <a href="../images/acrylic6.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
-        <img src="../images/acrylic6.jpg" class="img-fluid rounded">
+      <a href="../images/acrylic2.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+        <img src="../images/acrylic2.jpg" class="img-fluid rounded">
+      </a>
+      <a href="../images/acrylic1.jpg" data-toggle="lightbox" data-gallery="gallery" class="col-md-4">
+        <img src="../images/acrylic1.jpg" class="img-fluid rounded">
       </a>
     </div>
   </div>
-  
-  <!--Footer-->
+</div>
+</div>
+  <!--Footer Bootsrap-->
     <div class="row">
       <div class="col-md-12"><div class="card text-center">
           <div class="card-header">

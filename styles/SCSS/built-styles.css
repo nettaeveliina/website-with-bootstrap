@@ -47,6 +47,10 @@ html {
   height: 50px;
 }
 
+#gallery {
+  padding: 10px;
+}
+
 h1 {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -111,7 +115,7 @@ h1:hover {
 #buttonInfo {
   background-color: rgba(0, 60, 36, 0.603);
   border: none;
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   color: white;
   padding: 10px;
   font-size: 20px;

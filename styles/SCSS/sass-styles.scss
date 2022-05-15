@@ -65,6 +65,10 @@ html {
     height: 50px;
   }
 
+  #gallery {
+   padding: 10px;
+  }
+
 
   //Texts
   h1 {
@@ -134,7 +138,7 @@ html {
   #buttonInfo {
     background-color: $background-color;
     border: none;
-    font-family: $franklin;
+    font-family: $gill;
     color: white;
     padding: 10px;
     font-size: 20px;
