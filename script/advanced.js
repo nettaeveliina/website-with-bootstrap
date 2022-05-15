@@ -1,7 +1,7 @@
 
 //Left side Column
 
-let artC = document.getElementById("java");
+let artC = document.getElementById("javaColumn");
 
 artC.style.color = "white";
 artC.style.backgroundColor = "rgba(0, 60, 36, 0.603)";
@@ -16,7 +16,7 @@ button1.style.color = "white";
 button1.style.backgroundColor = "black";
 button1.style.fontSize = "20px";
 button1.style.fontFamily = "'BPscript', sans-serif";
-button1.style.marginLeft = "510px"
+button1.style.marginLeft= "510px"
 
 
 //Button2 (Instagram)
@@ -29,6 +29,7 @@ button2.style.fontSize = "20px";
 button2.style.margin = "20px";
 button2.style.fontWeight = "bold"
 button2.style.fontFamily = "'BPscript', sans-serif";
+button2.style.display = "table-cell"
 
 
 //Button3 (Rest Api)

@@ -65,6 +65,7 @@ html {
     height: 50px;
   }
 
+
   //Texts
   h1 {
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -112,6 +113,7 @@ html {
     background-color: $background-color;
     color: white;
     border: none;
+    
   }
   
   #button1 {
@@ -129,20 +131,69 @@ html {
     border: none;
   }
 
+  #buttonInfo {
+    background-color: $background-color;
+    border: none;
+    font-family: $franklin;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+  }
+
   /* For mobile phones: */
 
   @media only screen and (max-width: 498px) {
     
-      #column p {
-          font-size: $small;
+    #column p {
+      font-size: $small;
     
-      }
+    }
 
-      #column h1 {
-          font-size: $large;
-          display: inline;
-      }
+    #apiText {
+      font-size: $small;
+  
+    }
+
+    #columnText {
+      font-size: $small;
+
+    }
+
+    #column h1 {
+      font-size: $large;
+      display: inline;
+    }
+
+    #javaColumn {
+      display: inline-block;
+      width: 600px;
+    }
+
+    #col {
+      display: inline-block;
+      width: 600px;
+    }
+
+    #col2 {
+      display: inline-block;
+      width: 600px;
+    }
+
+    #back {
+      display: inline-block;
+      width: 600px;
+    }
+
+    #column {
+      display: inline-block;
+      width: 600px;
+    }
    
+    #contact {
+      display: inline-block;
+      width: 600px;
+    }
+
   }
   /*# sourceMappingURL=built-styles.css.map */
   

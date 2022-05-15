@@ -108,15 +108,62 @@ h1:hover {
   border: none;
 }
 
+#buttonInfo {
+  background-color: rgba(0, 60, 36, 0.603);
+  border: none;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
 /* For mobile phones: */
 @media only screen and (max-width: 498px) {
   #column p {
     font-size: 15px;
   }
 
+  #apiText {
+    font-size: 15px;
+  }
+
+  #columnText {
+    font-size: 15px;
+  }
+
   #column h1 {
     font-size: 25px;
     display: inline;
+  }
+
+  #javaColumn {
+    display: inline-block;
+    width: 600px;
+  }
+
+  #col {
+    display: inline-block;
+    width: 600px;
+  }
+
+  #col2 {
+    display: inline-block;
+    width: 600px;
+  }
+
+  #back {
+    display: inline-block;
+    width: 600px;
+  }
+
+  #column {
+    display: inline-block;
+    width: 600px;
+  }
+
+  #contact {
+    display: inline-block;
+    width: 600px;
   }
 }
 /*# sourceMappingURL=built-styles.css.map */
